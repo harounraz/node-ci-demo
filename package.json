@@ -1,0 +1,18 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "NodeJS continuous integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "author": "Raz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0",
+    "supertest": "^5.0.0"
+  }
+}
